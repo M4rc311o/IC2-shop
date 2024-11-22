@@ -9,8 +9,8 @@ services:
       - CTF_KEY=W6FEu7PnrMCHb3Y
     volumes:
       - ./ic2.yml:/juice-shop/config/ic2.yml
-      - ./ic2_shop_logo.png:/juice-shop/frontend/dist/frontend/assets/public/images/ic2_shop_logo.png
-      - ./favicon.ico:/juice-shop/frontend/dist/frontend/assets/public/favicon.ico
+      - ./images/ic2_shop_logo.png:/juice-shop/frontend/dist/frontend/assets/public/images/ic2_shop_logo.png
+      - ./images/favicon.ico:/juice-shop/frontend/dist/frontend/assets/public/favicon.ico
       - ./images/products:/juice-shop/frontend/dist/frontend/assets/public/images/products
       - ./images/uploads:/juice-shop/frontend/dist/frontend/assets/public/images/uploads
     restart: unless-stopped
